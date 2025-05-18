@@ -11,7 +11,7 @@ export class WebSocketManager {
   private manualClose = false
 
   private constructor() {
-    this.url = `http://localhost:8000/room`
+    this.url = `https://mystery-frontend.onrender.com/room`
   }
 
   static getInstance(): WebSocketManager {
